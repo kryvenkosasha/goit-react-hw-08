@@ -1,0 +1,12 @@
+.add-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-form-btn{
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
