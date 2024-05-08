@@ -3,14 +3,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { refreshUser } from "./redux/auth/operations";
-import { HomePage } from "./Pages/HomePage/HomePage";
+import { HomePage } from "./pages/HomePage/HomePage";
 import { PrivateRoute } from "./components/PrivateRoute.jsx";
 import RestrictedRoute from "./components/RestrictedRoute";
 import Layout from "./components/Layout";
-import RegistrationPage from "./Pages/RegistrationPage";
-import LoginPage from "./Pages/LoginPage.jsx";
-import ContactsPage from "./Pages/ContactsPage.jsx";
-import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage.jsx";
+import RegistrationPage from "./pages/RegistrationPage";
+import LoginPage from "./pages/LoginPage.jsx";
+import ContactsPage from "./pages/ContactsPage.jsx";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage.jsx";
 
 function App() {
   const dispatch = useDispatch();
