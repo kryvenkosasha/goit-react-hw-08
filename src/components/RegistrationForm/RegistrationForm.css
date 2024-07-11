@@ -1,19 +1,25 @@
-.add-form {
+.register-form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
-.add-form-btn {
+.register-form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-btn {
   border: 2px solid rgb(58, 58, 58);
-  padding: 10px;
+  padding: 10px 30px 10px 30px;
   text-decoration: none;
   border-radius: 20px;
   color: rgb(58, 58, 58);
 }
 
-.add-form-btn:hover {
+.register-btn:hover {
   background-color: rgb(77, 173, 70);
   color: rgb(245, 245, 245);
   cursor: pointer;

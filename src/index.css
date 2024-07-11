@@ -1,7 +1,49 @@
-li{
-    list-style: none;
-    margin: 0;
+li {
+  list-style: none;
+  margin: 0;
 }
-ul{
-    padding: 0;
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #c3ffdf;
+}
+
+header {
+  background-color: rgb(77, 173, 70);
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+p {
+  color: rgb(58, 58, 58);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(58, 58, 58);
+}
+
+input {
+  height: 30px;
+  border-radius: 20px;
+  width: 300px;
+  border: 2px solid rgb(58, 58, 58);;
+}
+
+p{
+    margin: 0;
 }

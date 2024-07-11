@@ -1,7 +1,24 @@
-.contact-item{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #232323;
-    border-radius: 10px;
+.contact-item {
+  max-width: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #232323;
+  border-radius: 10px;
+}
+
+.delete-btn {
+  border: 1px solid rgb(58, 58, 58);
+  padding: 3px 5px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(58, 58, 58);
+}
+
+.delete-btn:hover {
+  background-color: rgb(77, 173, 70);
+  color: rgb(245, 245, 245);
+  cursor: pointer;
+  border: 2px solid rgb(77, 173, 70);
+  transition: background-color 200ms linear;
 }

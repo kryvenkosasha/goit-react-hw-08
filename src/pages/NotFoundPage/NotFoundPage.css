@@ -1,11 +1,17 @@
-.add-form {
+.not-found-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
+  flex-direction: column;
 }
 
-.add-form-btn {
+.not-found-title {
+  font-size: 35px;
+  margin-top: 55px;
+  color: rgb(58, 58, 58);
+}
+
+.not-found-link {
   border: 2px solid rgb(58, 58, 58);
   padding: 10px;
   text-decoration: none;
@@ -13,7 +19,7 @@
   color: rgb(58, 58, 58);
 }
 
-.add-form-btn:hover {
+.not-found-link:hover {
   background-color: rgb(77, 173, 70);
   color: rgb(245, 245, 245);
   cursor: pointer;

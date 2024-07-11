@@ -1,0 +1,30 @@
+.search-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.search-box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.seach-contact-btn {
+  border: 2px solid rgb(58, 58, 58);
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: rgb(58, 58, 58);
+}
+
+.seach-contact-btn:hover {
+  background-color: rgb(77, 173, 70);
+  color: rgb(245, 245, 245);
+  cursor: pointer;
+  border: 2px solid rgb(77, 173, 70);
+  transition: background-color 200ms linear;
+}

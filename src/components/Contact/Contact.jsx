@@ -18,12 +18,12 @@ function Contact({ contactData }) {
       </li>
 
       <li>
-        <button
+        <button className="delete-btn"
           type="button"
           onClick={() => handleDeleteButton(contactData.id)}
         >
           Delete
-        </button>
+        </button >
       </li>
     </ul>
   );

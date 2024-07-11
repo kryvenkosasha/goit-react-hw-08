@@ -1,6 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useState } from "react";
 import { changeFilter } from "../../redux/filters/slice";
+import './SearchBox.css'
 
 const SearchBox = () => {
   const dispatch = useDispatch();
@@ -15,18 +16,16 @@ const SearchBox = () => {
   };
 
   return (
-    <div >
+    <div className="search-box">
       <span>Find contacts by name</span>
-      <div >
+      <div className="search-box-content">
         <input
           type="text"
           value={filterValue}
           onChange={handleFilterChange}
           placeholder="Search contacts"
         />
-        <button  onClick={handleFilterSubmit}>
-          Search
-        </button>
+        <button onClick={handleFilterSubmit} className="seach-contact-btn">Search</button>
       </div>
     </div>
   );
